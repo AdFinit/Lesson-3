@@ -16,6 +16,8 @@ public class GameManager : MonoBehaviour
     private void ProcessThrow()
     {
         int fallen = CountFallenPins();
+
+
         scoreManager.SetFrameScore(fallen);
 
         int currentFrame = scoreManager.GetCurrentFrame();
