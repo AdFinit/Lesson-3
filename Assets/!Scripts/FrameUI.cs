@@ -3,6 +3,7 @@ using TMPro;
 
 public class FrameUI : MonoBehaviour
 {
+    
     [SerializeField] private TMP_Text frameNumberText;
     [SerializeField] private TMP_Text throw1Text;
     [SerializeField] private TMP_Text throw2Text;
